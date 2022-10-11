@@ -54,16 +54,18 @@ footer img{
     flex-direction: column;
 }
 /*tamaño de div contenedor*/
-.div_convertidor{
+.div_convertidor, #here{
     border:black solid 2px;
     width: 80%;
     display: grid;
     text-align: center;
+    border-radius: 10px;
 }
 /*tamaño de imagen del convertidor*/
 .div_convertidor img {
     height: 200px;
     width: 200px;
+    margin-top: 10px;
 }
 /*color del titulo y del h3 del footer*/
 .title h3:hover,.footer h2:hover{
@@ -79,5 +81,12 @@ input[type="button"],input[type="text"]{
 }
 /*margen del button*/
 input[type="button"]{
-    margin: 10px;
+    margin: 20px;
+}
+#div_convertidor nav,iframe{
+    border-radius: 10px;
+}
+.div_txt_inicio{
+    width: 80%;
+
 }

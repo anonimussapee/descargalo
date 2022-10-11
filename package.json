@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/anonimussapee/downtube/issues"
   },
-  "homepage": "https://github.com/anonimussapee/downtube#readme"
+  "homepage": "https://github.com/anonimussapee/downtube#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },"type": "module"
 }
