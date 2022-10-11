@@ -1,0 +1,83 @@
+/*para quitar el margfen por defecto que tiene el body*/
+body{
+    margin: 0%;
+    /* background-color:  #121f3d; */
+    font-size: large;
+}
+/*el color del nav y el footer*/
+nav, footer{
+    background-color:  #0dab6d ;
+}
+/*para que el navbar ocupe todo el espacio que le pertenece*/
+.section_navbar{
+    display: grid;
+}
+/*con esta definimos el tamaño de altura del navbar*/
+.title{
+    line-height: 1.5px;
+
+}
+/* ubicacion del titulo navbar*/
+.title h3{
+    text-align: right;
+    margin-right: 20px;
+    color: black;
+}
+/*tamaño de imagen y radio del footer*/
+footer img{
+    height: 80px;
+    width: 80px;
+    border-radius: 70px;
+}
+/*tipo de display del footer*/
+.footer{
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 25% 10% 15%;
+}
+/*ubicación del titulo del footer*/
+.footer h3{
+    grid-column: 3/4;
+}
+/*ubicación del nombre del desarrollador footer*/
+.footer h2{
+    grid-column: 4/5;
+}
+/*ubicación de la imagen del footer*/
+.footer img{
+    grid-column: 5/6;
+}
+/*tipo de display del contenido principal*/
+.section_main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/*tamaño de div contenedor*/
+.div_convertidor{
+    border:black solid 2px;
+    width: 80%;
+    display: grid;
+    text-align: center;
+}
+/*tamaño de imagen del convertidor*/
+.div_convertidor img {
+    height: 200px;
+    width: 200px;
+}
+/*color del titulo y del h3 del footer*/
+.title h3:hover,.footer h2:hover{
+color: azure;
+}
+/*quitar subrayado de link*/
+.title a{
+    text-decoration:none;
+}
+/*tamaño del input y el button*/
+input[type="button"],input[type="text"]{
+    font-size: large;
+}
+/*margen del button*/
+input[type="button"]{
+    margin: 10px;
+}

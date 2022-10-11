@@ -1,0 +1,22 @@
+{
+  "name": "downtube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonimussapee/downtube.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "john cordova librededrogas420@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anonimussapee/downtube/issues"
+  },
+  "homepage": "https://github.com/anonimussapee/downtube#readme"
+}
