@@ -1,7 +1,8 @@
 /*para quitar el margfen por defecto que tiene el body*/
-body{
-    margin: 0%;
-    /* background-color:  #121f3d; */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
     font-size: large;
 }
 /*el color del nav y el footer*/
@@ -14,7 +15,7 @@ nav, footer{
 }
 /*con esta definimos el tamaño de altura del navbar*/
 .title{
-    line-height: 1.5px;
+    line-height: 1.5;
 
 }
 /* ubicacion del titulo navbar*/
@@ -31,9 +32,9 @@ footer img{
 }
 /*tipo de display del footer*/
 .footer{
-    margin-top: 55px;
+    margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 25% 10% 15%;
+    grid-template-columns: 20% 35% 25% 5% 20%;
 }
 /*ubicación del titulo del footer*/
 .footer h3{
@@ -83,10 +84,36 @@ input[type="button"],input[type="text"]{
 input[type="button"]{
     margin: 20px;
 }
+/*bordes del nav y el iframe para que coincida con los bordes del div */
 #div_convertidor nav,iframe{
-    border-radius: 10px;
+    border-radius: 7px;
 }
+/*tamaño del div contenedor del texto inicial*/
 .div_txt_inicio{
     width: 80%;
 
+}
+@media (  max-width:720px) {
+    #div_convertidor nav{
+        width: auto;
+    }
+    input[type="text"]{
+        width: 252px;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: 10% 40% 20% 30%;
+    }
+    .footer h3{
+        grid-column: 2/3;
+    }
+    .footer h2{
+        grid-column: 3/4;
+    }
+    .footer article{
+        grid-column: 4/5;
+    }
+    .title h3{
+        text-align: center;
+    }
 }
